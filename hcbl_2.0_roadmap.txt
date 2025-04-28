@@ -1,0 +1,17 @@
+# HCBL 2.0 Upgrade Plan - Human Creative Burst Log
+
+## Challenges Identified
+- Static thresholds limit adaptability.
+- Lack of scalability for large burst datasets.
+- Need for robustness against noisy bursts.
+- Embeddings were simulated, not semantically rich.
+
+## Phase 2 Goals
+- Introduce dynamic thresholds for novelty detection.
+- Swap fake embeddings with real sentence embeddings.
+- Stream processing for scalable burst analysis.
+- Validation metrics (Precision, Recall, F1) for evaluation.
+- Comparative dimensionality reduction (PCA, UMAP, t-SNE).
+
+## Long-Term Vision
+Create recursive dream seeds — Memory Fields — where bursts evolve dynamically and feed learning systems in real-time.
