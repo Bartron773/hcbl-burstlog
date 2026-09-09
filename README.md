@@ -1,26 +1,96 @@
-# HCBL - Human Creative Burst Log
+# HCBL Observatory
 
-## About HCBL
+**Human Creative Burst Log → longitudinal signal observatory**
 
-The Human Creative Burst Log (HCBL) project aims to map, analyze, and visualize the spontaneous creative bursts that define human innovation. By logging bursts and identifying patterns of novelty and anomaly, HCBL forms the foundation for recursive memory fields and future dream architectures.
+HCBL began as a way to capture spontaneous creative bursts. It now operates as the temporal instrumentation layer for three Simple Minds Studios systems working in tandem:
 
-## What is a Burst?
-A burst is a sudden, nonlinear expression of creativity, insight, or emotional resonance. In HCBL, each burst is treated as a unit of meaning.
+1. **HCBL Observatory** — tracks bursts over time: intensity, recurrence, novelty, conversion, contradiction, confidence, dormancy, and trajectory.
+2. **WITNESS / MULTIPLE** — preserves provenance, independent witnesses, contradiction, convergence, evolution, synthesis, and governance.
+3. **Jurassic Signal** — tests the epistemic boundary between what was witnessed, what was inferred, what was measured, what was modeled, and what remains unknown.
 
-## Why Detect Novelty and Anomalies?
-- Novelty detection uncovers emerging creative directions.
-- Anomaly detection identifies noise or signal drift.
+Together they ask a larger question: **How does an observation change as it passes through time, interpretation, multiple witnesses, and future reconstruction?**
 
-## Quick Start
+## Core principle
 
-1. Install dependencies (scikit-learn, matplotlib, numpy).
-2. Run the `dynamic_threshold_pipeline.py` to analyze bursts.
-3. Visualize the burst landscape and tag novelty.
+A burst is never frozen.
 
-## Fine-Tuning and Expansion
-- Use real sentence embeddings for bursts.
-- Introduce dynamic thresholding and hyperparameter tuning.
-- Plan for scalable pipelines with streaming data.
+Each captured burst may be revisited when new evidence appears. HCBL records the original interpretation, later evidence, counterevidence, confidence changes, and reclassification history rather than silently replacing the past.
 
-## The Future of Recursive Creativity Archives
-HCBL is not just a project — it's the beginning of capturing the living memory of human thought. Join us in building recursive fields of dreams.
+## HCBL Observatory layers
+
+- **Burst intensity** — conceptual charge at capture
+- **Persistence** — whether the idea disappears or resurfaces
+- **Cross-project recurrence** — whether the structure appears in unrelated work
+- **Conversion** — burst → concept → artifact → repo → principle
+- **Signal confidence** — strength of archival support
+- **Contradiction pressure** — evidence against the current reading
+- **Novelty** — distance from previously recorded patterns
+- **Recognition lag** — time between first appearance and pattern recognition
+- **Influence status** — independent, influenced, or directly inherited
+- **Trajectory** — strengthening, stable, weakening, mutating, dormant
+
+## Evidence rules
+
+HCBL probabilities describe the **archive**, not destiny.
+
+Every probability should expose its denominator, sample size, evidence window, and counterevidence. False numerical precision is treated as a failure mode.
+
+The synthesizer is part of the archive. Reclassification decisions, rejected hypotheses, omissions, and confidence changes must remain auditable.
+
+## Three-system loop
+
+```text
+CAPTURE
+  ↓
+HCBL — what appeared, when, and with what initial confidence?
+  ↓
+WITNESS / MULTIPLE — who observed it, where do accounts converge or contradict?
+  ↓
+JURASSIC SIGNAL — what is witnessed vs inferred vs reconstructed?
+  ↓
+RETROSPECTIVE SIGNAL CHECK
+  ↓
+HCBL — update trajectory without erasing the original state
+```
+
+## Example
+
+**Burst 0317**
+
+Initial classification: casual media criticism  
+Creative significance: 0.18  
+Expected persistence: 0.09
+
+Later evidence: paralysis → neural signaling → liquid-glass interface → Jurassic Signal → digital seeds → future-machine autonomy → archival governance.
+
+Retrospective result:
+
+```text
+ANOMALY DETECTED
+Downstream propagation exceeded initial expectation.
+Reclassification candidate:
+CASUAL OBSERVATION → GENERATIVE TRIGGER
+```
+
+The system then searches backward for comparable cases and actively looks for counterexamples before raising confidence.
+
+## Governance
+
+Persistence does not create authority.
+
+Old classifications, prompts, hypotheses, and seeds are preserved as historical evidence, not executable commands. Future systems may reinterpret, decline, or supersede prior readings while preserving provenance.
+
+## Repository structure
+
+- `entries/` — burst records
+- `docs/THREE_SYSTEM_ARCHITECTURE.md` — HCBL × WITNESS / MULTIPLE × Jurassic Signal
+- `schemas/burst.v3.schema.json` — longitudinal burst schema
+- `examples/burst-0317.json` — worked retrospective example
+- `observatory/` — future visual dashboard / Liquid Glass interface
+- `notebooks/` — analysis experiments
+
+## Status
+
+**v3 architecture staging** — September 2026
+
+This branch is the migration-ready Simple Minds Studios version of HCBL Observatory.

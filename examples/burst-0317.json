@@ -1,0 +1,70 @@
+{
+  "burst_id": "0317",
+  "captured_at": "2026-09-09T00:10:00-04:00",
+  "source": {
+    "kind": "conversation",
+    "reference": "Jurassic Signal origin conversation",
+    "provenance_status": "attributable"
+  },
+  "initial_state": {
+    "classification": "casual media criticism",
+    "epistemic_status": "witnessed",
+    "confidence": 0.72,
+    "burst_intensity": 0.18,
+    "persistence": 0.09,
+    "cross_project_recurrence": 0.05,
+    "conversion": 0.02,
+    "contradiction_pressure": 0.12,
+    "novelty": 0.21,
+    "recognition_lag_days": 0,
+    "trajectory": "unresolved",
+    "sample_size": 1,
+    "supporting_evidence": [
+      "Initial remark concerned an implausible paralysis-and-movement scene."
+    ],
+    "counterevidence": []
+  },
+  "history": [
+    {
+      "evaluated_at": "2026-09-09T02:00:00-04:00",
+      "assessment": {
+        "classification": "generative trigger",
+        "epistemic_status": "inferred",
+        "confidence": 0.76,
+        "burst_intensity": 0.86,
+        "persistence": 0.89,
+        "cross_project_recurrence": 0.72,
+        "conversion": 0.94,
+        "contradiction_pressure": 0.24,
+        "novelty": 0.81,
+        "recognition_lag_days": 0.08,
+        "trajectory": "strengthening",
+        "sample_size": 7,
+        "supporting_evidence": [
+          "Paralysis question evolved into neural signaling inquiry.",
+          "Neural signaling became an abstract visual language.",
+          "Visual language became a Liquid Glass interactive prototype.",
+          "Prototype expanded into Jurassic Signal as an epistemic study.",
+          "Jurassic Signal led to future reconstruction and digital-seed questions.",
+          "Digital seeds led to future-machine autonomy and archival governance.",
+          "The resulting structure aligns with existing witnessing and archival work."
+        ],
+        "counterevidence": [
+          "Many casual media observations do not propagate into projects.",
+          "Current sample is small and selected after the event."
+        ]
+      },
+      "synthesizer": "Lincoln / Synthesis Process",
+      "reason": "Downstream propagation greatly exceeded the original expectation; new evidence justified reclassification without erasing the original state.",
+      "rejected_hypotheses": [
+        "All casual observations are high-value creative triggers.",
+        "The pattern proves a stable personality trait."
+      ]
+    }
+  ],
+  "relationships": [
+    {"target": "Jurassic Signal", "relation": "evolves_into", "influence": "directly_inherited"},
+    {"target": "WITNESS / MULTIPLE", "relation": "converges_with", "influence": "influenced"},
+    {"target": "Digital Seeds", "relation": "evolves_into", "influence": "directly_inherited"}
+  ]
+}
